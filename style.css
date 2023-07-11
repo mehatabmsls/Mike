@@ -1,0 +1,642 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  all: unset;
+}
+
+#MainContent {
+  height: 80rem;
+  width: 98vw;
+  background-color: black;
+  display: flex;
+}
+
+#Branding {
+  height: 100%;
+  width: 32vw;
+  background: linear-gradient(225.63deg, #37445b -17.16%, #19202c 79.72%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#Branding>h1 {
+  font-family: SFUIText;
+  color: white;
+  font-size: 6.78rem;
+  display: flex;
+  justify-content: center;
+  margin-right: 5.6rem;
+  margin-top: 1.5rem;
+}
+
+#Branding>footer {
+  display: flex;
+  justify-content: center;
+  margin-right: 7.92rem;
+  gap: 1.5rem;
+}
+
+#Branding>footer>div {
+  background-color: #303641;
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ProductDetails {
+  height: 100%;
+  width: 66vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+#ProductDetails>div {
+  height: 100vh;
+  width: 54%;
+  margin-right: 12rem;
+}
+
+#ProductDetails>div>nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#ProductDetails>div>nav>div>input {
+  font-family: "Lato", sans-serif;
+  background-color: #eceff2;
+  border-radius: 2.4rem;
+  padding: 0rem 1rem 0rem 3rem;
+  font-size: 1.6rem;
+  height: 4.8rem;
+  width: 25rem;
+  margin-top: 3.2rem;
+  color: #19202c;
+  opacity: 0.4;
+}
+
+#ProductDetails>div>nav>div>label {
+  color: #dadada;
+  position: relative;
+  margin-left: -4rem;
+}
+
+#nav {
+  background-color: #37445b;
+}
+
+#cart {
+  margin-top: 4.4rem;
+  display: flex;
+  margin-left: 7vw;
+}
+
+#menu {
+  margin-top: 4.82rem;
+  margin-left: 2vw;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-left: 0.1vw;
+  border-radius: 50%;
+  background-color: #eceff2;
+  opacity: 70%;
+}
+
+#navigation>div {
+  display: flex;
+  color: #19202c;
+  margin-top: 3.2rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+}
+
+.tri {
+  margin-top: 0.7rem;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+  transform: rotate(90deg);
+  height: 0px;
+  width: 0px;
+  border-bottom: 4px solid #19202c;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+#gray {
+  color: #19202c;
+  opacity: 30%;
+}
+
+#pname>h2 {
+  margin-top: 3rem;
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 5.6rem;
+}
+
+#stars {
+  margin-top: 2.1rem;
+  display: flex;
+  align-items: center;
+}
+
+#star>img {
+  height: 1.503rem;
+  width: 1.58rem;
+  gap: o.358rem;
+}
+
+#votes {
+  color: #3f88eb;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  margin-left: 1.185rem;
+  border-bottom: 1px solid #3f88eb;
+}
+
+#price {
+  display: flex;
+  margin-top: 2rem;
+  font-family: "Lato", sans-serif;
+  gap: 2rem;
+}
+
+#price> :nth-child(1) {
+  font-family: "Lato", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 900;
+  height: 4.2rem;
+  width: 16.4rem;
+  color: #19202c;
+}
+
+#price> :nth-child(2) {
+  font-family: "Montserrat", sans-serif;
+  color: #19202c;
+  opacity: 30%;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: flex-end;
+  font-weight: 500;
+  text-decoration-line: line-through;
+  line-height: 2.4rem;
+  width: 8.9rem;
+  padding-bottom: 0.35rem;
+}
+
+#description {
+  display: flex;
+  margin-top: 2rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: #19202c;
+  width: 45.8rem;
+}
+
+#req {
+  display: flex;
+  margin-top: 2.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #19202c;
+  font-weight: 500;
+  justify-content: left;
+  gap: 10rem;
+  margin-left: 2.4vw;
+}
+
+#boxes {
+  display: flex;
+  justify-content: left;
+  margin-top: 1rem;
+  gap: 1.8vw;
+}
+
+.box {
+  width: 10.8rem;
+  height: 4.2rem;
+  border-radius: 2.1rem;
+  border: 2px solid #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#check1 {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+#one {
+  display: flex;
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.2rem;
+}
+
+#two {
+  display: flex;
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: #ededed;
+  border-radius: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#three {
+  display: flex;
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 1.2rem;
+  background-color: #7a3050;
+}
+
+#sz {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+}
+
+#im {
+  margin-top: 0.5rem;
+}
+
+#to {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.9rem;
+}
+
+#th {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+#minus {
+  transform: scale(3);
+  margin-bottom: .2rem;
+}
+
+#num {
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#plus {
+  transform: scale(2.42);
+  margin-bottom: .5rem;
+}
+
+#button {
+  display: inline-flex;
+  margin-top: 5rem;
+  align-items: center;
+  gap: 3.1vw;
+}
+
+#btn {
+  background-color: #3F88EB;
+  height: 5.6rem;
+  width: 24.1rem;
+  border-radius: 100px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  gap: 1.2rem;
+  color: white;
+}
+
+#like {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  gap: 1rem;
+  margin-top: .5rem;
+}
+
+#tt {
+  width: 11.5rem;
+}
+
+#sv {
+  margin-top: .4rem;
+}
+
+#bot {
+  display: flex;
+  margin-top: 3.2rem;
+  font-family: "Lato", sans-serif;
+  justify-content: left;
+  font-size: 1.4rem;
+  width: 40rem;
+}
+
+.new {
+  display: none;
+}
+
+#shoe {
+  position: absolute;
+  top: 18%;
+  left: 8%
+}
+
+#shoe>img {
+  width: 40vw;
+  height: auto;
+}
+
+
+@media screen and (max-width: 1050px) {
+  #req {
+    gap: 9.5rem
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #req {
+    gap: 9rem
+  }
+}
+
+@media screen and (max-width: 975px) {
+  #req {
+    gap: 8.6rem
+  }
+}
+
+@media screen and (max-width:948px) {
+  #shoe {
+    display: none;
+  }
+
+  input {
+    display: none;
+  }
+
+  #Branding {
+    display: none;
+  }
+
+  #MainContent {
+    all: unset;
+  }
+
+  #ProductDetails {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    background-color: #F1F1F1;
+  }
+
+  #ProductDetails>div {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 37.5rem;
+    background-color: white;
+  }
+
+  #ProductDetails>div>nav {
+    all: unset;
+    display: flex;
+    align-items: flex-end;
+    background-color: #2D394C;
+    height: 9.3rem;
+  }
+
+  #ProductDetails>div>nav>div>label {
+    all: unset;
+  }
+
+  .old {
+    display: none;
+  }
+
+  #old {
+    display: none;
+    visibility: hidden;
+  }
+
+  .new {
+    display: inherit
+  }
+
+  #cartim::after {
+    color: white;
+  }
+
+  #newmike {
+    font-family: SFUIText;
+    font-weight: 700;
+    color: white;
+    font-size: 2.4rem;
+    margin-top: 4.8rem;
+    margin-bottom: 1.6rem;
+    margin-left: 2.4rem;
+
+  }
+
+  #newcount {
+    height: 1.5rem;
+    position: absolute;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(236, 239, 242, 0.7);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    margin-bottom: 2.1rem;
+    margin-left: .3rem;
+    margin-left: 28.2rem;
+  }
+
+  #newsearch {
+    margin-top: 5.4rem;
+    margin-left: 14rem;
+    margin-bottom: 2.2rem;
+  }
+
+  #newcart {
+    margin-top: 6rem;
+    margin-bottom: 2.2rem;
+    margin-left: 2rem;
+  }
+
+  #newmenu {
+    margin-top: 5.7rem;
+    margin-left: 4rem;
+    margin-bottom: 2.1rem;
+    margin-right: 0;
+  }
+
+  #navigation {
+    margin-top: rem;
+    margin-left: 2.4rem;
+  }
+
+  #pname>h2 {
+    font-size: 2.7rem;
+    margin-left: 3.2rem;
+    margin-top: 1rem;
+  }
+
+  #newimg {
+    margin-top: 1.4rem;
+    margin-left: 8.9rem;
+  }
+
+  #stars {
+    margin-left: 2.4rem;
+  }
+
+  #price {
+    margin-left: 2.4rem;
+  }
+
+  #description {
+    margin-left: 2.4rem;
+    width: 32rem;
+  }
+
+  #req {
+    all: unset;
+    margin-left: 4.905rem;
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 1.334rem;
+    margin-top: 2.936rem;
+    gap: 7.785rem;
+  }
+
+  #boxes {
+    all: unset;
+    display: flex;
+    margin-top: 0.734rem;
+    gap: 1.839rem;
+    margin-left: 2.4rem;
+  }
+
+  .box {
+    height: 3.748rem;
+    width: 9.637rem;
+  }
+
+  #one {
+    height: 2.142rem;
+    width: 2.142rem;
+  }
+
+  #two {
+    height: 2.142rem;
+    width: 2.142rem;
+  }
+
+  #three {
+    height: 2.142rem;
+    width: 2.142rem;
+  }
+
+  #button {
+    all: unset;
+    display: flex;
+    margin-top: 3.3rem;
+    align-items: center;
+    gap: 2.432rem;
+  }
+
+  #btn {
+    height: 4.3rem;
+    width: 18.505rem;
+    font-size: 1.382rem;
+    margin-left: 2.5rem;
+  }
+
+  #sv {
+    height: 0.983rem;
+    width: 1.28rem;
+  }
+
+  #tt {
+    margin-left: 0.893rem;
+    font-size: 1.228rem;
+  }
+
+  #newlike {
+    position: absolute;
+    margin-top: -.24rem;
+  }
+
+  #bot {
+    font-size: 1.2rem;
+    margin-left: 2.4rem;
+    margin-top: 2.4rem;
+
+  }
+
+  #newso {
+    margin-top: 3.3rem;
+    display: flex;
+    justify-content: center;
+    gap: 3.2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.6rem;
+    width: 3.6rem;
+    border-radius: 100px;
+    background-color: #F1F1F1;
+  }
+}
+
+@font-face {
+  font-family: SFUIText;
+  src: url("./Fonts/SF-UI-Text-Bold.ttf");
+}
